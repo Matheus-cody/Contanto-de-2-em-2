@@ -1,0 +1,29 @@
+package ativade;
+
+import java.util.Scanner;
+
+public class Pular2em2 {
+
+	public static void main(String[] args) {
+		
+			Scanner sc = new Scanner (System.in);
+			
+			int max = 100,n,cont=0;
+            
+		System.out.println("Digite o número maximo");
+		
+		int max1 = sc.nextInt();
+		
+		
+		System.out.println("Contando de 2 em 2");
+		
+		do {
+			System.out.println(cont+"");
+			cont += 2;
+		
+		} while (cont <= max1);
+		
+		sc.close();
+		
+		}
+			}
